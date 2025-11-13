@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bút - Viết | Shop Dụng Cụ Học Tập</title>
+  <link rel="stylesheet" href="demo123-main/webbansach/Styles/dungcu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body data-page="1">
+  
+  <!-- Header -->
+  <header class="thanh-dieu-huong">
+    <div class="header-container">
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+ 
+      <div class="logo">
+        <img src="https://ibrand.vn/wp-content/uploads/2024/09/logo-utc-4.jpg" alt="Logo Shop Dụng Cụ">
+        <span class="ten-logo">SHOP DỤNG CỤ HỌC TẬP KB</span>
+      </div>
+
+      <!-- Thanh tìm kiếm -->
+      <div class="thanh-tim-kiem">
+        <i class="fa fa-search"></i>
+        <input type="text" id="o-tim-kiem" placeholder="Tìm kiếm bút, vở, đồ dùng học tập...">
+      </div>
+
+      <!-- Nút CSKH -->
+      <div class="nut-cash">
+        <button id="nut-cash">Liên Hệ</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h3 style="color: red; font-family: 'Fredoka One'; font-size: 35px; font-weight: bold; text-transform: uppercase;">
+      BÚT - VIẾT</h3>
+  </main>
+
+  <!-- Menu Sidebar -->
+  <nav class="side-menu" id="side-menu">
+    <h3>MENU</h3>
+    <ul>
+      <li><a href="web.html">
+        <i class="fa fa-home"></i> Trang chủ
+      </a></li> 
+      <li><a href="dungcu.html"><i class="fa fa-pen"></i> Bút - Viết</a></li>
+      <li><a href="khac.html"><i class="fa fa-box"></i> Dụng Cụ Khác</a></li>
+      <li><a href="sach.html"><i class="fa fa-book"></i> Sách</a></li>
+      <li><a href="login.html"><i class="fa fa-headset"></i> Trang Đăng Nhập</a></li>
+      <li><a href="web.html"><i class="fa fa-phone"></i> Liên Hệ</a></li>
+    </ul>
+  </nav>
+
+  <!-- Tìm sản phẩm -->
+  <section class="search-section">
+    <h2>Tìm theo</h2>
+    <div class="search-box">
+      <div class="search-item">
+        <label>Mã sản phẩm</label>
+        <input type="text" placeholder="Mã số sản phẩm...">
+      </div>
+      <div class="search-item">
+        <label>Giá</label>
+        <select>
+          <option>Chọn khoảng giá</option>
+          <option>Dưới 10k</option>
+          <option>10k - 50k</option>
+          <option>50k - 100k</option>
+          <option>Trên 100k</option>
+        </select>
+      </div>
+      <div class="search-item">
+        <label>Sắp xếp theo</label>
+        <select>
+          <option>Mới nhất</option>
+          <option>Giá tăng dần</option>
+          <option>Giá giảm dần</option>
+        </select>
+      </div>
+    </div>
+    <button class="btn-search">🔍 Tìm kiếm</button>
+  </section>
+ 
+  <!-- Danh sách sản phẩm -->
+  <section class="acc-container" id="acc-container">
+    <!-- Nội dung sẽ được load từ JavaScript -->
+  </section>
+
+  <!-- Thanh chuyển trang -->
+  <div class="pagination-container">
+    <ul class="pagination" id="pagination">
+      <!-- Pagination sẽ được tạo từ JavaScript -->
+    </ul>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>SHOP DỤNG CỤ HỌC TẬP KB</h3>
+        <ul>
+          <li>Nơi cung cấp các dụng cụ học tập chất lượng cao.</li>
+          <li>Sẵn sàng hỗ trợ khách hàng 24/24.</li>
+        </ul>
+        <p><b>UY TÍN - GIÁ RẺ - CHẤT LƯỢNG</b></p>
+      </div>
+
+      <div class="footer-column">
+        <h3>LƯU Ý CẦN BIẾT</h3>
+        <p>Địa chỉ shop:</p>
+        <p>451AB Lê Văn Việt, Phường Tăng Nhơn Phú, TP. Hồ Chí Minh</p>
+        <p>Thời gian hỗ trợ thông tin:</p>
+        <p>8h00 - 20h00 mỗi ngày</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>HƯỚNG DẪN</h3>
+        <p>Hướng dẫn đặt hàng</p>
+        <p>Hướng dẫn thanh toán</p>
+        <p>Chính sách đổi trả</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+        <p>Hotline: 0888 888 888</p>
+        <p>Zalo: 0999 999 999</p>
+        <p>Gmail: dungcuhoctapkb@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Bản quyền thuộc về <b>Shop Dụng Cụ Học Tập KB - Uy Tín - Chất Lượng - Giá Rẻ | 2025</b></p>
+    </div>
+  </footer>
+
+  <script src="demo123-main/webbansach/Scripts/dungcu.js"></script>
+</body>
+</html>
